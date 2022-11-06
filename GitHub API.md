@@ -1,10 +1,20 @@
+# GitHub API 
 
+## Introduction
 
+## Current User URL
 
+```python
+"current_user_url": "https://api.github.com/user"
+```
 
+## Current User Authorizations HTML URL
 
-{
-  "current_user_url": "https://api.github.com/user",
+```python
+ "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}"
+ ```
+## Authorizations URL
+  
   "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}",
   "authorizations_url": "https://api.github.com/authorizations",
   "code_search_url": "https://api.github.com/search/code?q={query}{&page,per_page,sort,order}",
@@ -37,4 +47,3 @@
   "user_organizations_url": "https://api.github.com/user/orgs",
   "user_repositories_url": "https://api.github.com/users/{user}/repos{?type,page,per_page,sort}",
   "user_search_url": "https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"
-}
